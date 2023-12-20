@@ -1,0 +1,131 @@
+body{
+
+    font-family: red hat text;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+main{
+    margin-top:20%;
+}
+h1{
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+    font-size:1.1rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding:10%;
+}
+section{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.days, .hours, .seconds, .minutes{
+    color:hsl(345, 95%, 68%);
+    font-size: 2.2rem;
+    background-color:hsl(236, 21%, 26%) ;
+    padding:10px;
+    margin:20px;
+    width:50px;
+    height:50px;
+    margin:auto;
+    border-radius: 5px;
+}
+p{
+    color:hsl(237, 18%, 59%);
+    letter-spacing: 2px;
+    font-size: 0.5rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-image: url('images/pattern-hills.svg');
+    height:15%;
+    div{
+        margin: 15% 5% 5% 5%;
+    }
+    div:hover{
+        cursor: pointer;
+    }
+}
+
+@media(min-width:800px){
+    main{
+        margin-top:0%;
+    }
+section{
+    justify-content: none;
+    margin-left:30%;
+    margin-right:30%;
+}
+}
+/*body{
+    background-image: url('images/bg-stars.svg');
+    background-color: hsl(234, 17%, 12%);
+    font-family: red hat text;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+main{
+    margin-top:20%;
+}
+h1{
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+    font-size:1.1rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding:10%;
+}
+section{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.days, .hours, .seconds, .minutes{
+    color:hsl(345, 95%, 68%);
+    font-size: 2.2rem;
+    background-color:hsl(236, 21%, 26%) ;
+    padding:10px;
+    margin:20px;
+    width:50px;
+    height:50px;
+    margin:auto;
+    border-radius: 5px;
+}
+p{
+    color:hsl(237, 18%, 59%);
+    letter-spacing: 2px;
+    font-size: 0.5rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-image: url('images/pattern-hills.svg');
+    height:15%;
+    div{
+        margin: 15% 5% 5% 5%;
+    }
+    div:hover{
+        cursor: pointer;
+    }
+}
+
+@media(min-width:800px){
+    main{
+        margin-top:0%;
+    }
+section{
+    justify-content: none;
+    margin-left:30%;
+    margin-right:30%;
+}
+}
