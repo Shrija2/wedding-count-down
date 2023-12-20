@@ -26,12 +26,13 @@ section {
   color: hsl(345, 95%, 68%);
   font-size: 2.2rem;
   background-color: #ECCAA4;
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
   width: 50px;
   height: 50px;
   margin: auto;
   border-radius: 5px;
+  text-align: center;
 }
 
 p {
